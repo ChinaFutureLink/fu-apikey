@@ -1,11 +1,11 @@
 {
   "name": "fu-apikey",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "src/index.js",
   "author": "Leskur",
   "license": "ISC",
   "dependencies": {
-    "url-md5": "^0.0.2"
+    "url-md5": "^0.0.4"
   }
 }
