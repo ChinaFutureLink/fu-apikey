@@ -15,5 +15,7 @@ const apikey = require("fu-apikey");
 
 apikey.setSalt("Your salt")
 
-apikey.encode({url: "/pathname", method: "POST", params: {a: 1, b: 2}});
+apikey.encode({url: "/pathname", method: "GET", params: {a: 1, b: 2}});
+
+apikey.encode({url: "/pathname", method: "POST", data: {a: 1, b: 2}});
 ```
