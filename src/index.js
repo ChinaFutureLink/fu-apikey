@@ -1,7 +1,7 @@
 const urlMd5 = require("url-md5");
 
 urlMd5.config.pathRewriter = function (pathname, raw) {
-    return (raw?.method || "get").toUpperCase() + pathname.replace("/fu/api", "");
+    return (raw.method || "get").toUpperCase() + pathname.replace("/fu/api", "");
 }
 
 module.exports = {
